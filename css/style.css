@@ -27,3 +27,35 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+@media screen and (width>512px) {
+  .box {
+    width: 100px;
+    background-color: steelblue;
+  }
+}
+
+@media screen and (width>768px) {
+  .box {
+    width: 200px;
+    background-color: red;
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+@media (hover: hover) {
+  .box:hover {
+    border: 19px solid red;
+  }
+}
